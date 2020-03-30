@@ -1,13 +1,15 @@
 const nasa = new Nasa;
 
-const apod = document.getElementById('apod');
+const apodEl = document.getElementById('apod');
 
-apod.addEventListener('click', getApod);
+apodEl.addEventListener('click', getApod);
 
 // Get APOD
 function getApod() {
+  document.getElementById('display').innerHTML = '';
   nasa.apod()
     .then(results => {
+      console.log('Apod clicked');
       console.log(results);
       console.log(results.explanation);
     })
