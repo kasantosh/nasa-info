@@ -8,6 +8,11 @@ body {
   margin-bottom: 2rem;
 }
 
+.logo {
+  width: 6rem;
+  margin-top: 2rem;
+}
+
 .menu-list {
   padding: 1rem;
   margin-bottom: 1px solid #fff;
