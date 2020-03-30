@@ -34,3 +34,25 @@ body {
   background-color: rgb(205, 231, 255);
   border: 2px solid rgb(164, 207, 248);
 }
+
+.rover-photos {
+  width: 8rem;
+  min-height: 10rem;
+  border: 1px solid rgb(179, 178, 178);
+  border-radius: 3px;
+  padding: .5rem;
+
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: .3rem;
+  
+}
+
+
+
+.rover-photo-camera p {
+  text-align: center;
+  color: rgb(57, 24, 139);
+}
